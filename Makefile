@@ -1,5 +1,5 @@
 
-CFLAGS=-Wall -Wextra -pedantic -Iinclude -Iraylib/include
+CFLAGS=-Wall -Wextra -Iinclude -Iraylib/include
 LDFLAGS=-Lraylib/lib -l:libraylib.a -lm
 
 all: src/main.c
